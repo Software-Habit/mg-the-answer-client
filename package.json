@@ -1,0 +1,43 @@
+{
+  "name": "the-answer-ui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth0/auth0-react": "^2.2.4",
+    "@aws-sdk/client-s3": "^3.654.0",
+    "@aws-sdk/s3-request-presigner": "^3.654.0",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@mui/material": "^5.15.16",
+    "axios": "^1.6.8",
+    "chart.js": "^4.4.4",
+    "date-fns": "^4.1.0",
+    "dayjs": "^1.11.13",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.6.2",
+    "next": "14.2.3",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "react": "^18",
+    "react-chartjs-2": "^5.2.0",
+    "react-countup": "^6.5.3",
+    "react-dom": "^18",
+    "react-query": "^3.39.3",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3"
+  },
+  "engines": {
+    "node": "20.11.0"
+  }
+}
