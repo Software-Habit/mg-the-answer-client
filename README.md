@@ -117,10 +117,4 @@ To learn more about the frameworks and services used in this project, check out 
 
 ## Deployment
 
-This application can be deployed easily using Vercel, the platform built by the creators of Next.js.
-
-Deploy theAnswer UI to Vercel with one click:
-
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)
-
-Alternatively, you can follow the Next.js [deployment documentation](https://nextjs.org/docs/deployment) for other hosting options.
+This application has historically been deployed on Heroku and MongoDB Atlas.
