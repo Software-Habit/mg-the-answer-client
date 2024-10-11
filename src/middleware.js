@@ -4,6 +4,9 @@ export function middleware(req) {
     const auth = req.cookies.get('auth')?.value;
     const { pathname } = req.nextUrl;
 
+
+
+    
     // Allow access to the login page, auth API, logout API, or if authenticated
     if (
         pathname.startsWith('/login') || 
